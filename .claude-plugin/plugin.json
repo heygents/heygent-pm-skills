@@ -1,0 +1,10 @@
+{
+  "name": "heygent-pm-skills",
+  "description": "HeyGent PM workflow skills: customer discovery, PM/CTO/UX planning, PRD-to-tech-plan, UI/PM/R&D review, learn/retro, competitor feature analysis, external-doc ingestion into the Knowledge layer, and a bring-your-own design-system toolkit (extract a DS from your brand assets, build, compliance audit, prototype → Figma). Designed for product managers using Monday, Mixpanel, Notion, Gmail and similar tools via MCP.",
+  "version": "1.0.0",
+  "author": {
+    "name": "HeyGent"
+  },
+  "homepage": "https://github.com/heygents/heygent-pm-skills",
+  "keywords": ["product-management", "pm", "prd", "discovery", "competitor-analysis", "knowledge-ingest", "validation-storyboard", "qa", "monday", "mixpanel", "design-system", "design-tokens", "figma"]
+}

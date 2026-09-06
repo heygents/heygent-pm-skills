@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.cloak-profiles/
+*.log
+
+# Workspace artifacts if you run/test skills from the repo root.
+# Anchored to root so the plugin's own templates/Knowledge/ stays tracked.
+/Knowledge/
+/Outputs/
+/Learnings/

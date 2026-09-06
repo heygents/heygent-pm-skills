@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "heygent",
+  "description": "HeyGent PM skills marketplace — single-plugin marketplace shipping the HeyGent PM workflow library.",
+  "owner": {
+    "name": "HeyGent"
+  },
+  "plugins": [
+    {
+      "name": "heygent-pm-skills",
+      "description": "HeyGent PM workflow skills: discovery, planning, PRD, review, learn, competitor analysis, bring-your-own design system.",
+      "author": { "name": "HeyGent" },
+      "category": "product-management",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heygents/heygent-pm-skills.git"
+      }
+    }
+  ]
+}
