@@ -36,7 +36,7 @@ A Claude Code plugin with 19 workflow skills (+ interactive onboarding) covering
 **Quick start.** Open a terminal app on your computer (macOS: Terminal.app; Windows: Windows Terminal or PowerShell) — **not** a Claude chat — and run:
 
 ```bash
-claude plugin marketplace add heygents/heygent-pm-skills
+claude plugin marketplace add heygents/heygent-skills
 claude plugin install heygent-pm-skills@heygent
 ```
 
@@ -45,6 +45,10 @@ claude plugin install heygent-pm-skills@heygent
 > Already inside Claude Code (CLI or IDE)? You can alternatively use `/plugin marketplace add …` and `/plugin install …` directly there. Plugins do not work in the Claude desktop chat app or claude.ai.
 
 Then bootstrap your workspace and run `/00-onboarding` in Claude Code (recommended) — or copy the templates and edit them manually.
+
+> Already added the marketplace before September 2026 (from `heygents/heygent-pm-skills`)? Switch once:
+> `claude plugin marketplace remove heygent && claude plugin marketplace add heygents/heygent-skills`.
+> The marketplace manifest now lives in [heygents/heygent-skills](https://github.com/heygents/heygent-skills).
 
 **Full step-by-step walkthrough** (recommended for first install): [INSTALL.md](INSTALL.md).
 
@@ -90,8 +94,7 @@ Skills 15–17 never assume a brand or a component library. Everything project-s
 ```
 .
 ├── .claude-plugin/
-│   ├── plugin.json
-│   └── marketplace.json
+│   └── plugin.json
 ├── README.md
 ├── LICENSE
 ├── skills/

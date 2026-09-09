@@ -1,6 +1,6 @@
 ---
 name: 04-ux-planner
-description: Produces a UX plan from a problem statement: users, journeys, IA, key screens/states, and UX acceptance criteria. Use when the user asks for a UX plan or runs /04-ux-planner.
+description: "Produces a UX plan from a problem statement: users, journeys, IA, key screens/states, and UX acceptance criteria. Use when the user asks for a UX plan or runs /04-ux-planner."
 ---
 
 # UX Planner

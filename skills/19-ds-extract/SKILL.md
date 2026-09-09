@@ -1,6 +1,6 @@
 ---
 name: 19-ds-extract
-description: Generate a design system for this workspace — `Knowledge/Design/ds-config.md`, `tokens.md` and `components.md` — from graphic and code sources: screenshots, logos, a brand-guideline PDF, a live URL, a Figma file, or existing CSS / Tailwind / theme code. This is what makes `/15-ds-build`, `/16-ds-compliance-check` and `/17-prototype-to-figma` work against YOUR brand. Use when the user says "create a design system from this", "extract tokens", "set up my DS", "here's my brand", "make the DS skills work for us", or runs /19-ds-extract.
+description: "Generate a design system for this workspace — `Knowledge/Design/ds-config.md`, `tokens.md` and `components.md` — from graphic and code sources: screenshots, logos, a brand-guideline PDF, a live URL, a Figma file, or existing CSS / Tailwind / theme code. This is what makes `/15-ds-build`, `/16-ds-compliance-check` and `/17-prototype-to-figma` work against YOUR brand. Use when the user says \"create a design system from this\", \"extract tokens\", \"set up my DS\", \"here's my brand\", \"make the DS skills work for us\", or runs /19-ds-extract."
 ---
 
 # DS Extract — Design system from your assets

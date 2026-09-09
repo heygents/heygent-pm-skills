@@ -72,12 +72,12 @@ A "marketplace" is just a registry that tells Claude Code where to find one or m
 **At the terminal prompt you opened in Step 0**, type (or paste) this and press Enter:
 
 ```bash
-claude plugin marketplace add heygents/heygent-pm-skills
+claude plugin marketplace add heygents/heygent-skills
 ```
 
 > ⚠️ **This is a shell command, not a chat message.** It runs in your terminal app — not in Claude chat, not in claude.ai, not in the Claude Code chat panel. If you paste it into a Claude conversation, Claude will reply with words instead of running it.
 >
-> If you're already in a Claude Code session (CLI or IDE), you can alternatively type `/plugin marketplace add heygents/heygent-pm-skills` directly into Claude Code. If you see `"/plugin isn't available in this environment"`, you're in the chat app — go back to your terminal.
+> If you're already in a Claude Code session (CLI or IDE), you can alternatively type `/plugin marketplace add heygents/heygent-skills` directly into Claude Code. If you see `"/plugin isn't available in this environment"`, you're in the chat app — go back to your terminal.
 
 **Expected output:**
 

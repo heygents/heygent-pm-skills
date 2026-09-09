@@ -1,6 +1,6 @@
 ---
 name: 01-customer-discovery
-description: Synthesizes customer feedback from transcripts, notes, CSVs, and other configured sources into the top user-problem trends (problem space only). Read-only: does not write back to source systems. Use when the user asks to analyze customer calls, meeting transcripts, call notes, voice-of-customer insights, or runs /01-customer-discovery.
+description: "Synthesizes customer feedback from transcripts, notes, CSVs, and other configured sources into the top user-problem trends (problem space only). Read-only: does not write back to source systems. Use when the user asks to analyze customer calls, meeting transcripts, call notes, voice-of-customer insights, or runs /01-customer-discovery."
 ---
 
 # 01 Customer Discovery → top problem trends (read-only)
