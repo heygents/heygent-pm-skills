@@ -9,7 +9,7 @@ This project is a fork of [yahellif-ele/pm-design-agents](https://github.com/yah
 ## 1.0.1 — 2026-09-09
 
 ### Changed
-- **Marketplace moved.** The `heygent` marketplace manifest now lives in its own repo, [heygents/heygent-skills](https://github.com/heygents/heygent-skills), so it can list every HeyGent plugin (this one and `ayal-doron-methodology-skills`). `.claude-plugin/marketplace.json` was removed from this repo. Fresh installs: `claude plugin marketplace add heygents/heygent-skills`. Existing users: `claude plugin marketplace remove heygent && claude plugin marketplace add heygents/heygent-skills` (installed plugins stay installed).
+- **Marketplace moved.** The `heygent` marketplace manifest now lives in its own repo, [heygents/heygent-skills](https://github.com/heygents/heygent-skills), so it can list every HeyGent plugin (this one and `ayal-doron-methodology-skills`). `.claude-plugin/marketplace.json` was removed from this repo. Fresh installs: `claude plugin marketplace add heygents/heygent-skills`. Existing users: `claude plugin marketplace remove heygent && claude plugin marketplace add heygents/heygent-skills && claude plugin install heygent-pm-skills@heygent` (removing a marketplace also removes its plugins; workspace files are untouched).
 
 ### Fixed
 - YAML frontmatter of `/01-customer-discovery`, `/04-ux-planner` and `/19-ds-extract` failed to parse (unquoted `description` with special characters), so their `name`/`description` were silently dropped at load time. Descriptions are now quoted; `claude plugin validate` passes.
