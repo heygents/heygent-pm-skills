@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "heygent",
-  "description": "HeyGent PM skills marketplace — single-plugin marketplace shipping the HeyGent PM workflow library.",
+  "description": "HeyGent skills marketplace — the HeyGent PM workflow library and the Ayal Doron 'unreplaceable' methodology skills.",
   "owner": {
     "name": "HeyGent"
   },
@@ -9,11 +9,25 @@
     {
       "name": "heygent-pm-skills",
       "description": "HeyGent PM workflow skills: discovery, planning, PRD, review, learn, competitor analysis, bring-your-own design system.",
-      "author": { "name": "HeyGent" },
+      "author": {
+        "name": "HeyGent"
+      },
       "category": "product-management",
       "source": {
         "source": "url",
         "url": "https://github.com/heygents/heygent-pm-skills.git"
+      }
+    },
+    {
+      "name": "ayal-doron-methodology-skills",
+      "description": "Ayal Doron's 'unreplaceable' methodology: challenge intake, the irreplaceable anchor, four tools for inventing a new playing field (almost-absurd goal, extreme obstacle, extreme persona, calculated-risk knockout) and habit infrastructure.",
+      "author": {
+        "name": "HeyGent"
+      },
+      "category": "strategy",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heygents/ayal-doron-methodology-skills.git"
       }
     }
   ]
