@@ -47,7 +47,8 @@ claude plugin install heygent-pm-skills@heygent
 Then bootstrap your workspace and run `/00-onboarding` in Claude Code (recommended) — or copy the templates and edit them manually.
 
 > Already added the marketplace before September 2026 (from `heygents/heygent-pm-skills`)? Switch once:
-> `claude plugin marketplace remove heygent && claude plugin marketplace add heygents/heygent-skills`.
+> `claude plugin marketplace remove heygent && claude plugin marketplace add heygents/heygent-skills`,
+> then `claude plugin install heygent-pm-skills@heygent` (removing a marketplace also removes its plugins; workspace files are untouched).
 > The marketplace manifest now lives in [heygents/heygent-skills](https://github.com/heygents/heygent-skills).
 
 **Full step-by-step walkthrough** (recommended for first install): [INSTALL.md](INSTALL.md).
