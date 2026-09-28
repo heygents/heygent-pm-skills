@@ -17,6 +17,7 @@ Requires:
 """
 from __future__ import annotations
 
+import lib.session
 import argparse
 import json
 import os
